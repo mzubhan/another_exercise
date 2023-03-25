@@ -1,0 +1,273 @@
+.body {
+    padding: 0;
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.header {
+    display: flex;
+    flex-direction: row;
+    background-color: #2b2d42;
+    justify-content: center;
+    height: 68px;
+    align-items: center;
+}
+
+.header__container {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    width: 1000px;
+    position: relative;
+    justify-content: center;
+}
+
+.logo {
+    height: 50px;
+    width: 50px;
+    position: absolute;
+    left: 0;
+}
+
+.header__link-container {
+    display: flex;
+    flex-direction: row;
+    list-style: none;
+    align-content: center;
+    margin-left: 90px;
+}
+
+.header__link {
+    text-decoration: none;
+    color: #bcbedc;
+    margin: auto;
+    width: 80px;
+    line-height: 50px;
+    text-align: center;
+}
+
+.sign-up-btn__header {
+    color: white;
+    text-decoration: none;
+    background-color: #3577ff;
+    border-radius: 6px;
+    margin: auto;
+    width: 100px;
+    text-align: center;
+    line-height: 40px;
+    position: absolute;
+    top: 5px;
+    right: 150px;
+}
+
+.sign-up-btn__header:hover {
+    line-height: 42px ;
+    width: 102px;
+    box-shadow: white 20px;
+    transition: 0.2s ease-in-out;
+}
+
+.form {
+    display: flex;
+    background-color: #edf1f5;
+    height: 800px;
+    margin: auto;
+    padding-bottom: 100px;
+}
+
+.form__container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: auto;
+    background-color: rgb(250,250,250);
+}
+
+.form__input-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 400px;
+    margin: auto;
+    border: none;
+}
+
+.form__title {
+    margin: auto;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    color: #7a858f;
+    border: none;
+}
+
+.form__item {
+    margin: auto;
+    margin-bottom: 20px;
+    width: 90%;
+    height: 40px;
+    border: none;
+    background-color: #edf1f5;
+}
+
+.form__item::placeholder {
+    color: grey;
+    padding-left: 10px;
+    }  
+
+.agreement__text {
+    margin: 0;
+    color :#7a858f;
+    font-size: 14px;
+}
+
+.agreement__text_type_link {
+    text-decoration: none;
+    color: #7a858f;
+}
+
+.agreement__text_type_link:hover {
+    color: #3577ff;
+    transition: 0.5s;
+}
+
+.agreement__btn{
+    margin: 0;
+    margin: auto;
+    margin-bottom: 20px;
+    height: fit-content;
+}
+
+.sign-up-btn__form {
+    color: white;
+    text-decoration: none;
+    background-color: #3db4f2;
+    border-radius: 3px;
+    margin: auto;
+    width: 110px;
+    text-align: center;
+    line-height: 35px;
+}
+
+.login___container {
+    display: flex;
+    flex-direction: row;
+    margin-top: 50px;
+    margin-bottom: 40px;
+    justify-content: center;
+}
+
+.login {
+    margin-right: 2px;
+    margin: 0;
+    color :#7a858f;
+    font-size: 14px;
+    text-decoration: none;
+}
+
+.login:hover {
+    color: #3577ff;
+    
+}
+
+.resend {
+    margin-left: 2px;
+    margin: 0;
+    color :#7a858f;
+    font-size: 14px;
+    text-decoration: none;
+}
+
+.resend:hover {
+    color: #3577ff;
+    transition: 0.5s ease;
+}
+
+.gapz {
+    margin-left: 2px;
+    margin: 0;
+    color :#7a858f;
+    padding-left: 3px;
+    padding-right: 3px;
+    font-size: 14px;
+    text-decoration: none;
+}
+
+.footer {
+    background-color: #11161d;
+    min-height: 200px;
+    color: white;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+li {
+    list-style: none;
+}
+
+.footer__content {
+    display: flex;
+    flex-direction: row;
+    width: 80%;
+    justify-content: space-around;
+    margin-top: 50px;
+    margin-bottom: 70px;
+}
+
+.class-theme__container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 150px;
+}
+
+.class-theme__heading {
+    margin: 0;
+    margin-bottom: 20px;
+    color: #3db4f2;
+    font-size: 18px;
+}
+
+.link__text {
+    margin-bottom: 20px;
+    font-size: 16px;
+}
+
+.link__text_link {
+    text-decoration: none;
+    color: #a0b1c5;
+}
+
+.link__text-container {
+    margin: 0;
+    padding: 0;
+}
+
+.class-theme {
+    padding-right: 15px;
+    padding-top: 5px;
+    border: 2px solid #7a858f;
+    border-radius: 3px;
+    text-decoration: none;
+    font-size: 18px;
+}
+
+.class-theme_theme_default {
+    background: white;
+    color: black;
+}
+
+.class-theme_theme_dark {
+    background: black;
+    color: white;
+}
+
+.class-theme_theme_highc-ontrast{
+    background: white;
+    color: black;
+}
+
+.class-theme_theme_system-theme{
+    background: linear-gradient(45deg, #000000 50%, #ffffff 50%);
+    color: white;
+}
